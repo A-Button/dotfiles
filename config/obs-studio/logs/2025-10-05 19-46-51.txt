@@ -1,0 +1,108 @@
+19:46:51.364: Platform: Wayland
+19:46:51.364: CPU Name: AMD Ryzen 5 5500
+19:46:51.364: CPU Speed: 3396.073MHz
+19:46:51.364: Physical Cores: 6, Logical Cores: 12
+19:46:51.364: Physical Memory: 31883MB Total, 25818MB Free
+19:46:51.364: Kernel Version: Linux 6.16.10-arch1-1
+19:46:51.364: Distribution: "Arch Linux" Unknown
+19:46:51.364: Desktop Environment: Hyprland (Hyprland)
+19:46:51.364: Session Type: wayland
+19:46:51.366: Current Date/Time: 2025-10-05, 19时46分51秒
+19:46:51.366: Browser Hardware Acceleration: true
+19:46:51.366: Qt Version: 6.9.2 (runtime), 6.9.2 (compiled)
+19:46:51.366: Portable mode: false
+19:46:51.417: OBS 32.0.1-1 (linux)
+19:46:51.417: ---------------------------------
+19:46:51.417: ---------------------------------
+19:46:51.417: audio settings reset:
+19:46:51.417: 	samples per sec: 48000
+19:46:51.417: 	speakers:        2
+19:46:51.417: 	max buffering:   960 milliseconds
+19:46:51.417: 	buffering type:  dynamically increasing
+19:46:51.418: ---------------------------------
+19:46:51.418: Initializing OpenGL...
+19:46:51.418: Using EGL/Wayland
+19:46:51.453: Initialized EGL 1.5
+19:46:51.466: Loading up OpenGL on adapter AMD AMD Radeon RX 6500 XT (radeonsi, navi24, LLVM 20.1.8, DRM 3.64, 6.16.10-arch1-1)
+19:46:51.466: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.2.4-arch1.1, shading language 4.60
+19:46:51.493: ---------------------------------
+19:46:51.493: video settings reset:
+19:46:51.493: 	base resolution:   1920x1080
+19:46:51.493: 	output resolution: 1920x1080
+19:46:51.493: 	downscale filter:  Bicubic
+19:46:51.493: 	fps:               60/1
+19:46:51.493: 	format:            NV12
+19:46:51.493: 	YUV mode:          Rec. 709/Partial
+19:46:51.493: NV12 texture support enabled
+19:46:51.493: P010 texture support not available
+19:46:51.495: Audio monitoring device:
+19:46:51.495: 	name: 默认
+19:46:51.495: 	id: default
+19:46:51.496: ---------------------------------
+19:46:51.497: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:46:51.498: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:46:51.498: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:46:51.498: Failed to initialize module 'decklink.so'
+19:46:51.578: [pipewire] No capture sources available
+19:46:51.584: v4l2loopback not installed, virtual camera not registered
+19:46:51.593: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+19:46:51.597: VAAPI: API version 1.22
+19:46:51.598: FFmpeg VAAPI H264 encoding not supported
+19:46:51.601: FFmpeg VAAPI AV1 encoding not supported
+19:46:51.605: FFmpeg VAAPI HEVC encoding not supported
+19:46:51.608: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: 无法打开共享目标文件: 没有那个文件或目录
+19:46:51.608: 
+19:46:51.608: NVENC not supported
+19:46:51.608: Failed to initialize module 'obs-nvenc.so'
+19:46:51.628: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+19:46:51.628: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.2 | Qt version (run-time): 6.9.2
+19:46:51.628: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+19:46:51.636: [obs-websocket] [obs_module_load] Module loaded.
+19:46:51.638: ---------------------------------
+19:46:51.638:   Loaded Modules:
+19:46:51.638:     text-freetype2.so
+19:46:51.638:     rtmp-services.so
+19:46:51.638:     obs-x264.so
+19:46:51.638:     obs-websocket.so
+19:46:51.638:     obs-webrtc.so
+19:46:51.638:     obs-vst.so
+19:46:51.638:     obs-transitions.so
+19:46:51.638:     obs-qsv11.so
+19:46:51.638:     obs-outputs.so
+19:46:51.638:     obs-libfdk.so
+19:46:51.638:     obs-filters.so
+19:46:51.638:     obs-ffmpeg.so
+19:46:51.638:     linux-v4l2.so
+19:46:51.638:     linux-pulseaudio.so
+19:46:51.638:     linux-pipewire.so
+19:46:51.638:     linux-jack.so
+19:46:51.638:     linux-capture.so
+19:46:51.638:     linux-alsa.so
+19:46:51.638:     image-source.so
+19:46:51.638:     frontend-tools.so
+19:46:51.638:     decklink-output-ui.so
+19:46:51.638:     decklink-captions.so
+19:46:51.638: ---------------------------------
+19:46:51.638: ---------------------------------
+19:46:51.638: Available Encoders:
+19:46:51.638:   Video Encoders:
+19:46:51.638: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:46:51.638: 	- ffmpeg_aom_av1 (AOM AV1)
+19:46:51.638: 	- obs_x264 (x264)
+19:46:51.638:   Audio Encoders:
+19:46:51.638: 	- ffmpeg_aac (FFmpeg AAC)
+19:46:51.638: 	- ffmpeg_opus (FFmpeg Opus)
+19:46:51.638: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16位))
+19:46:51.638: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24位))
+19:46:51.638: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32位浮点))
+19:46:51.638: 	- ffmpeg_alac (FFmpeg ALAC (24位))
+19:46:51.638: 	- ffmpeg_flac (FFmpeg FLAC (16位))
+19:46:51.638: 	- libfdk_aac (libfdk AAC)
+19:46:51.638: ==== Startup complete ===============================================
+19:46:51.675: All scene data cleared
+19:46:51.675: ------------------------------------------------
+19:46:51.676: Switched to scene '场景'
+19:46:51.676: ------------------------------------------------
+19:46:51.676: Loaded scenes:
+19:46:51.676: - scene '场景':
+19:46:51.676: ------------------------------------------------

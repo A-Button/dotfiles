@@ -1,0 +1,85 @@
+# ~/.config/kitty/kitty.conf
+
+# 背景透明度 (66% 透明度 = 34% 不透明度)
+background_opacity 0.2
+
+# 默认终端
+shell /bin/zsh
+
+# 背景颜色 (纯黑)
+background #000000
+
+# 字体配置
+font_family      JetBrains Mono
+bold_font        JetBrains Mono Bold
+italic_font      JetBrains Mono Italic
+bold_italic_font JetBrains Mono Bold Italic
+font_size        14.0
+
+
+# 字体大小
+font_size 11.0
+
+# 启用字体特性
+font_features JetBrainsMono-Regular +calt +ss01
+font_features JetBrainsMono-Bold +calt +ss01
+font_features JetBrainsMono-Italic +calt +ss01
+font_features JetBrainsMono-BoldItalic +calt +ss01
+
+# 光标设置 - 块状光标并开启动画特效
+cursor #ffffff
+cursor_shape block
+cursor_blink_interval 0.5
+cursor_stop_blinking_after 15.0
+
+# 光标动画效果
+cursor_trail 1
+cursor_beam_thickness 1.5
+cursor_underline_thickness 2.0
+cursor_trail_scale 0.3
+cursor_trail_duration 0.8
+
+# 鼠标设置
+mouse_hide_wait 3.0
+url_color #0087bd
+url_style curly
+open_url_with default
+copy_on_select yes
+pointer_shape_when_grabbed beam
+
+# 窗口设置
+window_border_width 1.0
+window_margin_width 5
+window_padding_width 10
+active_border_color #00ff00
+inactive_border_color #cccccc
+resize_debounce_time 0.1
+confirm_os_window_close 0
+
+# 标签栏设置
+tab_bar_style powerline
+tab_bar_edge top
+tab_bar_align left
+tab_title_template "{fmt.fg._5c6370}{fmt.bg.default} {tab.active_oldest_wd} "
+active_tab_title_template "{fmt.fg._e5c07b}{fmt.bg.default} {tab.active_oldest_wd} "
+active_tab_foreground #e5c07b
+active_tab_background #000000
+inactive_tab_foreground #5c6370
+inactive_tab_background #000000
+
+# 颜色配置 (使用纯黑背景的增强配色)
+foreground #ffffff
+background #000000
+selection_background #444444
+selection_foreground #ffffff
+
+# 性能优化
+repaint_delay 10
+input_delay 3
+sync_to_monitor yes
+
+allow_remote_control yes
+# 高级光标效果 (通过实验性功能)
+# 注意：这些可能需要最新版本的Kitty
+# cursor_animate_blink yes
+# cursor_smooth_blink yes
